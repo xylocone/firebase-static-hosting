@@ -1,0 +1,36 @@
+:root {
+  font-size: 150%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  padding: 16px;
+}
+
+body {
+  /* Display and Box Model */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 64px 32px;
+
+  /* Others */
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #eee;
+  border: 2px dashed gray;
+}
+
+h2 {
+  color: gray;
+}
